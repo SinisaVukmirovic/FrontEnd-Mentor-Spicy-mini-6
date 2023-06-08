@@ -11,7 +11,7 @@ font-family: 'Lexend Deca', sans-serif; */
     /* Neutral */
     --White: hsl(0, 0%, 100%); /* (main heading, stats) */
     --Slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.75); /* (main paragraph) */
-    --Slightly-transparent-white-stats: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
+    --Slightly-transparent-white-stats-headings: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
 }
 
 /* BASIC RESET */
@@ -41,15 +41,75 @@ html {
 
 body {
     min-height: 100vh;
+    /* padding-top: 5rem; */
     background-color: var(--Very-dark-blue);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
+header {
+    height: 5rem;
+}
+.hidden {
+    position: absolute;
+    left: -100rem;
+}
 
+main {
+    margin: 0 1.5rem;
+    background-color: var(--Dark-desaturated-blue);
+}
 
+.screen {
+    aspect-ratio: 16 / 9;
+    background-image: url('../images/image-header-phone.jpg');
+    /* background-size: 100%; */
+}
 
+section {
+    padding: 2rem;
+    text-align: center;
+}
 
+.info {
+    font-family: 'Inter', sans-serif;
+}
+    .info h2 {
+        font-size: 1.75rem;
+        font-family: 'Inter', sans-serif;
+        color: var(--White);
+        font-weight: 700;
+    }
+    .info p {
+        /* font-size: 2rem; */
+        color: var(--Slightly-transparent-white-paragraph);
+        margin: 1.5rem 0 2rem;
+    }
+    .accent {
+        color: var(--Soft-violet);
+    }
 
+.stats {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+    .stats span {
+        color: var(--White);
+        font-size: 1.5rem;
+    }
+    .stats h3 {
+        color: var(--Slightly-transparent-white-stats-headings);
+        text-transform: uppercase;
+        font-size: .7rem;
+    }
 
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution {
+    margin-top: auto;
+    font-size: 10px; 
+    text-align: center;
+    padding: 1rem;
+    color: var(--Slightly-transparent-white-paragraph);
+}
 .attribution a { color: hsl(228, 45%, 44%); }
