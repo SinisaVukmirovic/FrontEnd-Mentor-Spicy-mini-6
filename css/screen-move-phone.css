@@ -1,0 +1,43 @@
+@keyframes screen-move-phone {
+    /* start */
+    0% {
+        background-size: 325%;
+        background-position: 50% 85%;
+    }
+    /* still */
+    17% {
+        background-size: 325%;
+        background-position: 50% 85%;
+    }
+    /* slide */
+    30% {
+        background-size: 100%;
+        background-position: 50% 0;
+    }
+    /* still */
+    50% {
+        background-size: 100%;
+        background-position: 50% 0;
+    }
+    /* jump */
+    50.01% {
+        background-size: 200%;
+        background-position: 100% 0;
+    }
+    /* still */
+    67% {
+        background-size: 200%;
+        background-position: 100% 0;
+    }
+    /* slide */
+    80% {
+        background-size: 125%;
+        background-position: 0 100%;
+    }
+    
+    /* still */
+    100% {
+        background-size: 125%;
+        background-position: 0 100%;
+    }
+}

@@ -1,0 +1,57 @@
+
+/* test */
+@keyframes screen-move {
+    /* start */
+    0% {
+        /* background-size: 400%;
+        background-position: 20% 0; */
+        background-size: 400%;
+        background-position: 50% 100%;
+    }
+    /* still */
+    15% {
+        /* background-size: 400%;
+        background-position: 20% 0; */
+        background-size: 400%;
+        background-position: 50% 100%;
+    }
+    /* slide */
+    25% {
+        /* background-size: 250%;
+        background-position: 85% 0; */
+        background-size: 190%;
+        background-position: 25% 0;
+    }
+    /* still */
+    55% {
+        /* background-size: 250%;
+        background-position: 85% 0; */
+        background-size: 190%;
+        background-position: 25% 0;
+    }
+    /* glide */
+    65% {
+        /* background-size: 400%;
+        background-position: 50% 100%; */
+        background-size: 250%;
+        background-position: 85% 0;
+    }
+    /* still */
+    85% {
+        /* background-size: 400%;
+        background-position: 50% 100%; */
+        background-size: 250%;
+        background-position: 85% 0;
+    }
+
+    /* jump */
+    99.01% {
+        background-size: 400%;
+        background-position: 50% 100%;
+    }
+    /* still */
+    100% {
+        background-size: 400%;
+        background-position: 50% 100%;
+    }
+}

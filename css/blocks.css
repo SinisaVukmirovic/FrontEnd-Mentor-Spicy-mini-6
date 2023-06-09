@@ -1,3 +1,5 @@
+@import 'screen-move-phone.css';
+
 .hidden {
     position: absolute;
     left: -100rem;
@@ -13,15 +15,18 @@ main {
 .screen {
     aspect-ratio: 16 / 9;
     /* background-image: url('../images/image-header-phone.jpg'); */
+    mix-blend-mode: lighten;
     background-image: url('../images/image-header-desk.jpg');
-    background-size: 100%;
+    /* background-size: 325%;
+    background-position: 50% 85%; */
+    animation: screen-move-phone 30s linear infinite;
     position: relative;
 }
     .overlay {
         position: absolute;
         inset: 0;
-        background-color: var(--Soft-violet);
-        opacity: .5;
+        /* background-color: var(--Soft-violet);
+        opacity: .5; */
     }
 
 section {
@@ -68,4 +73,4 @@ section {
     padding: .5rem;
     color: var(--Slightly-transparent-white-paragraph);
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--Soft-violet); }

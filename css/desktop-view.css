@@ -1,3 +1,5 @@
+@import 'screen-move-desk.css';
+
 @media (min-width: 1440px) {
     main {
         max-width: 60rem;
@@ -42,8 +44,10 @@
         order: 2;
         height: 100%;
         width: 100%;
-        background-size: 200%;
+        /* background-size: 250%;
+        background-position: 85% 0; */
         mix-blend-mode: lighten;
+        animation: screen-move 30s linear infinite;
     }
 
     .attribution {
