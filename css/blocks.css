@@ -1,0 +1,76 @@
+/* @import url('./desktop-view.css'); */
+
+header {
+    height: 5rem;
+}
+.hidden {
+    position: absolute;
+    left: -100rem;
+}
+
+main {
+    margin: 0 2rem;
+    background-color: var(--Dark-desaturated-blue);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.screen {
+    aspect-ratio: 16 / 9;
+    /* background-image: url('../images/image-header-phone.jpg'); */
+    background-image: url('../images/image-header-desk.jpg');
+    background-size: 100%;
+    position: relative;
+}
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background-color: var(--Soft-violet);
+        opacity: .6;
+    }
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.info {
+    font-family: 'Inter', sans-serif;
+}
+    .info h2 {
+        font-size: 1.75rem;
+        color: var(--White);
+        font-weight: 700;
+    }
+    .info p {
+        /* font-size: 2rem; */
+        color: var(--Slightly-transparent-white-paragraph);
+        margin: 1.5rem 0 2rem;
+    }
+    .accent {
+        color: var(--Soft-violet);
+    }
+
+.stats {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+    .stats span {
+        color: var(--White);
+        font-size: 1.5rem;
+    }
+    .stats h3 {
+        color: var(--Slightly-transparent-white-stats-headings);
+        text-transform: uppercase;
+        font-size: .7rem;
+    }
+
+.attribution {
+    margin-top: auto;
+    font-size: 10px; 
+    text-align: center;
+    padding: .5rem;
+    color: var(--Slightly-transparent-white-paragraph);
+}
+.attribution a { color: hsl(228, 45%, 44%); }
