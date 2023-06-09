@@ -1,13 +1,13 @@
 @media (min-width: 1440px) {
     main {
         max-width: 60rem;
-        margin: 0 2rem;
         display: grid;
         grid-template-columns: 5fr 3fr;
+        padding: 1.5rem;
     }
 
     section {
-        padding: 5rem;
+        padding: 3.5rem;
         /* padding-right: 7rem; */
         text-align: left;
     }
@@ -41,6 +41,12 @@
     .screen {
         order: 2;
         height: 100%;
-        background-size: 100%;
+        width: 100%;
+        background-size: 200%;
+        mix-blend-mode: lighten;
+    }
+
+    .attribution {
+        font-size: 1rem;
     }
 }

@@ -43,8 +43,8 @@ body {
     min-height: 100vh;
     background-color: var(--Very-dark-blue);
     font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    place-items: center;
 }
 
 @media (min-width: 1440px) {
