@@ -44,11 +44,19 @@
         order: 2;
         height: 100%;
         width: 100%;
+        border-radius: .5rem;
+        /* border: 4x solid var(--Soft-violet); */
+        /* the line above somehow cancels border ?! */
+        outline-offset: -2.5rem;
         /* background-size: 250%;
         background-position: 85% 0; */
         mix-blend-mode: lighten;
         animation: screen-move 30s linear infinite;
     }
+        .screen::before,
+        .screen::after {
+            height: 5px;
+        }
 
     .attribution {
         font-size: 1rem;
