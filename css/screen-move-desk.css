@@ -9,14 +9,14 @@
         background-position: 50% 100%;
     }
     /* still */
-    15% {
+    20% {
         /* background-size: 400%;
         background-position: 20% 0; */
         background-size: 400%;
         background-position: 50% 100%;
     }
     /* slide */
-    25% {
+    30% {
         /* background-size: 250%;
         background-position: 85% 0; */
         background-size: 190%;
@@ -37,7 +37,7 @@
         background-position: 85% 0;
     }
     /* still */
-    85% {
+    90% {
         /* background-size: 400%;
         background-position: 50% 100%; */
         background-size: 250%;
